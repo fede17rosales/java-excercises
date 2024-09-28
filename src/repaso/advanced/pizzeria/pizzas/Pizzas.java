@@ -1,4 +1,4 @@
-package repaso.pizzeria;
+package repaso.advanced.pizzeria.pizzas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,16 +14,16 @@ public class Pizzas {
 
     }
 
-    public static void agregarPizza(Pizza pizza){
+    public static void addPizza(Pizza pizza){
             pizzas.add(pizza);
     }
-    public static void mostrarPizzeria(){
-        var inventario = "";
-        for (Pizza p: pizzas) {
-            inventario += p.toString() + "\n";
+    public static void viewCatalog(){
+        var listPizzas = "";
+        for (Pizza pizza: pizzas) {
+            listPizzas += pizza.toString() + "\n";
         }
-        System.out.println("-------- Pizzas Inventario --------");
-        System.out.println(inventario);
+        System.out.println("-------- Pizzas available --------");
+        System.out.println(listPizzas);
 
     }
 

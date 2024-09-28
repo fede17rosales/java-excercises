@@ -1,6 +1,6 @@
-package repaso.pizzeria;
+package repaso.advanced.pizzeria;
 
-import repaso.pizzeria.utils.Menu;
+import repaso.advanced.pizzeria.menu.Menu;
 
 public class Main {
     public static void main(String[] args) {
