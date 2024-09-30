@@ -14,3 +14,9 @@ In the review project, I summarize two projects: Pizzeria and VideoClub. In both
 > **Attention:** These projects can be found in the **packages** **advanced.pizzeria** and **advanced.videoclub**
 
 ![Diagrams](/Advanced/img/videoclub-pizzeria-diagram.png)
+
+## Database with Java
+
+in progress
+
+> **Attention:** 
