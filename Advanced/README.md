@@ -13,4 +13,4 @@ In the review project, I summarize two projects: Pizzeria and VideoClub. In both
 
 > **Attention:** These projects can be found in the **packages** **advanced.pizzeria** and **advanced.videoclub**
 
-![VideoClub](/img/videoclub-pizzeria-diagram.png)
+![Diagrams](/img/videoclub-pizzeria-diagram.png)
