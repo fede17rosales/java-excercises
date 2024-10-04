@@ -1,7 +1,5 @@
 package service;
 
-import data.IMusicianDAO;
-
 import java.util.Scanner;
 
 public interface IMusicianService {
