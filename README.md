@@ -18,6 +18,7 @@ In the review project, I summarize two projects: Pizzeria and VideoClub. In both
 ## Database with Java
 
 In this section I show a small example of a 3-tier architecture with a connection to MySQL. For the management and construction of this project, Maven and the JDBC API were used to connect with the MySQL database management system.
+
 > **Attention:** This project can be divided into the **packages presentation, conexcion, data, domain** and **service**.
 
-![Table](/mysql/src/main/resources/musician.png)
+![Table](/Mysql/src/main/resources/musician.png)
