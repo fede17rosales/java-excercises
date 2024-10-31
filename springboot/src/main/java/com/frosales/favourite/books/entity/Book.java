@@ -2,7 +2,9 @@ package com.frosales.favourite.books.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name = "books")
 public class Book {
@@ -22,37 +24,5 @@ public class Book {
 
     public Long getId() {
         return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getAutorName() {
-        return autorName;
-    }
-
-    public void setAutorName(String autorName) {
-        this.autorName = autorName;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
-
-    public String getIsbm() {
-        return isbm;
-    }
-
-    public void setIsbm(String isbm) {
-        this.isbm = isbm;
     }
 }
